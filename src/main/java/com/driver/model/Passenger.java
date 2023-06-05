@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -22,6 +23,9 @@ public class Passenger {
     private String name;
 
     private int age;
+
+
+
 
     //passengers and tickets are many to manny
 
